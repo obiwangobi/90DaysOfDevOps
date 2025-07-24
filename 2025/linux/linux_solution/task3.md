@@ -43,7 +43,7 @@ grep -i "failure" log_file.txt
 Use the following command to fileter the data according to timestamp and log level
 
 ```bash
-aek '/failure/ {print $1,$2,$3,$5,$6,$7,}log_file.txt
+aek '/failure/ {print $1,$2,$3,$5,$6,$7}' log_file.txt
 ```
 The output will be
 
